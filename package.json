@@ -1,0 +1,30 @@
+{
+  "name": "x402-facilitator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "x402 facilitator for Solana exact payments that also accepts Phantom's Lighthouse assertions",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@solana/kit": "8.5.0",
+    "@upstash/redis": "1.41.0",
+    "@x402/core": "2.31.0",
+    "@x402/svm": "2.31.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.98.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "19.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}
